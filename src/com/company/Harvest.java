@@ -15,8 +15,10 @@ public class Harvest {
             area += (area*percentArea)/100;
             averageHarvest += (averageHarvest*percentHarv)/100;
             System.out.println(String.format(("Площадь за %d ый год = %f"), startIndex, area));
+
             System.out.println(String.format(("Урожайность за %d ый год = %f"), startIndex, averageHarvest));
 
+            startIndex ++;
         }
     }
 }
